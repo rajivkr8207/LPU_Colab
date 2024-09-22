@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+
+.watermark-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-40deg);
+  }
+  
+  .watermark {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.3); /* Light color for watermark */
+    user-select: none;
+  }
+  /* Custom Scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px; 
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #A8A8A8;
+    /* border-radius: 10px; */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+    background-color: #F2F4F7;
+}
+.ace-monokai .ace_gutter {
+    background: #1E2431;
+    color: #666;
+}
+.custom-bg {
+    background-color: #060D1A !important; /* Apply your custom background color */
+    color: #FFFFFF; /* Optional: Customize text color */
+}
