@@ -40,11 +40,11 @@ const Main = () => {
 
     <div className='w-[93vw] h-[90%] flex flex-col '>
     <div className='w-full h-[100%] flex '>
-        <div className='w-[37%]'>
+        <div className='w-[40%]'>
           <LeftQues />
         </div>
 
-        <div className='w-[63%] '> 
+        <div className='w-[60%] '> 
          <RightEdi/>
         </div>
     </div>

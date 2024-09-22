@@ -3,10 +3,12 @@ import { PiWarningOctagonLight } from "react-icons/pi";
 import wish from '../../assets/a.png'
 import error from '../../assets/error.svg'
 import WaterMarkQues from './WaterMarkQues';
+import splitter from '../../assets/splitter.svg'
 const LeftQues = () => {
   return (
     <>
-      <div className='w-[full] h-full bg-[#EAEEFF] mx-3'>
+      <div className='w-[full] h-full  ml-3 flex'>
+      <div className='w-[100%] h-full bg-[#EAEEFF] ml-3'>
         <div className='px-6 flex justify-between items-center h-[13%] '>
           <h1 className='text-[#666666] font-medium text-lg'>Question No : 1 / 2</h1> 
           <div className='flex gap-2 items-center'>
@@ -18,6 +20,10 @@ const LeftQues = () => {
         <div className='  w-[100%] h-[87%]'>
           <WaterMarkQues/>
         </div>
+      </div>
+      <div className='flex flex-col w-[3%] h-full justify-center'>
+<img src={splitter} alt="" srcset="" className='w-4 h-3' />
+      </div>
       </div>
     </>
   )
